@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-size: 2rem;
+    /* background: linear-gradient(180deg, #0E185F, #2FA4FF) no-repeat center fixed; */
+    background-size: cover;
+    background-color: #42C2FF;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+img{
+    width: 100%;
+    border-radius: 2rem;
+    height: auto;
+    object-fit: cover;
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.banner{
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Kanit', sans-serif;
+    text-align: center;
+    padding: 3rem;
+    font-size: 3.5rem;
+    color: WHITE;
+    
+}
+
+.box{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.admin{
+    padding: 2rem;
+    margin-right: 2rem;
+    width: 20%;
+    text-align: center;
+    transition: width 1s, height 1s;
+}
+
+.admin:hover{
+    width: 25%;
+    
+}
+
+.student{
+    padding: 2rem;
+    width: 20%;
+    text-align: center;
+    transition: width 1s, height 1s;
+
+}
+
+.student:hover{
+    width: 25%;
+
+}
+
+/***animations***/
